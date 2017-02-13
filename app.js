@@ -7,6 +7,7 @@ if(confirmQuiz === 'Y' || confirmQuiz === 'YES'){
   console.log('Awesome! Letsssa Goooooo!');
 } else {
   console.log('Your taking it anyway.  Email StopCryingandTaketheQuiz@aol.com with complaints. Thx');
+break;
 }
 
 // Question One
