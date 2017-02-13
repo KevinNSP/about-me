@@ -1,5 +1,6 @@
 body {
-  background-color: grey;
+  background-color: silver;
+  min-width: 1024px;
 }
 
 h1 {
@@ -7,12 +8,27 @@ h1 {
   font-size: 80px;
   text-align: center;
   color: black;
-  background-color: white;
+  display: inline;
+  min-width: 100%;
 }
 
 h2 {
   font-family: 'Rubik', sans-serif;
   color: black;
-  background-color: white;
   width: auto;
+  display: inline-block;
+}
+
+ul {
+  display: inline;
+  min-width: 50%;
+}
+
+ol {
+  display: inline;
+  min-width: 50%;
+}
+
+li {
+  display:list-item;
 }
