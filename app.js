@@ -8,7 +8,7 @@ if(confirmQuiz === 'Y' || confirmQuiz === 'YES'){
 } else {
   console.log('Your taking it anyway.  Email StopCryingandTaketheQuiz@aol.com with complaints. Thx');
 }
-function catQuestion(){
+function QuestionOne(){
 // Question One
   var quizResponseOne = prompt('Does Kevin have a cat?').toUpperCase();
 
@@ -20,9 +20,9 @@ function catQuestion(){
     console.log('Please answer using Y or N or Yes/No. PAY ATTENTION');
   }
 }
-catQuestion();
+QuestionOne();
 
-function spainQuestion(){
+function QuestionTwo(){
 //Question Two
   var quizResponseTwo = prompt('Has Kevin been to Spain?').toUpperCase();
 
@@ -34,9 +34,9 @@ function spainQuestion(){
     console.log('Please answer using Y/N or Yes/No. Didn\'t we go over this?');
   }
 }
-spainQuestion();
+QuestionTwo();
 
-function mphQuestion(){
+function QuestionThree(){
 // Question Three
   var quizResponseThree = prompt('Has Kevin ever gone 180mph?').toUpperCase();
 
@@ -47,7 +47,7 @@ function mphQuestion(){
     console.log('Please answer using Y/N or Yes/No. I feel like I\'m repeating myself.');
   }
 }
-mphQuestion();
+QuestionThree();
 
 function beerQuestion(){
 // Question Four
@@ -61,7 +61,7 @@ function beerQuestion(){
     console.log('Please answer using Y/N or Yes/No. Not trying to insult your intelligence but....');
   }
 }
-beerQuestion();
+QuestionFour();
 
 function kickQuestion(){
 // Question Five
@@ -75,7 +75,7 @@ function kickQuestion(){
     console.log('Please answer using Y/N or Yes/No. Just do it. It will make everyone\'s life easier.');
   }
 }
-kickQuestion();
+QuestionFour();
 
 function numGame(){
 // Question Six Random Number
@@ -96,7 +96,7 @@ function numGame(){
 }
 numGame();
 
-function statesQuestion(){
+function QuestionFive(){
 //Question Seven States Question
   var statesVisited = ['WASHINGTON', 'OREGON'];
 //number of guesses
@@ -113,7 +113,7 @@ function statesQuestion(){
     alert('Your all out of guesses. The correct answers are ' + statesVisited);
   }
 }
-statesQuestion();
+QuestionFive();
 // var correctState = ['WASHINGTON, OREGON, IDAHO, MONTANA, NEW YORK, NEW JERSEY, TEXAS, NEVADA, MONTANA, CALIFORNIA, PENNSYLVANIA, NORTH CAROLINA'];
 //
 // // console.log(correctState);
