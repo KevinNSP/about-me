@@ -112,36 +112,3 @@ for (var i = 0; i < 6; i++){
 }
 
 confirm('You got ' + correctNumberOfAnswers + ' correct.  Good Job!');
-
-// do {
-//   if (confirmQuiz) {
-//     prompt('Slright, lets go');
-//   } else {
-//   confirmQuiz = alert('wrong answer')
-//   }
-// } while (true);
-
-// array = array("Kyle","Ben","Sue","Phil","Ben","Mary","Sue","Ben");
-// Counts = array_count_values($array);
-// echo $counts['Ben'];
-
-// var arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
-// var counts = {};
-//
-// for(var i = 0; i< arr.length; i++) {
-//     var num = arr[i];
-//     counts[num] = counts[num] ? counts[num]+1 : 1;
-
-// sumOfnumbers(3,7);
-//
-// var name = 'Adam';
-// var otherName = 'Amanda';
-// var myDog = 'Mika';
-//
-// var addTwoThings = function(numOne, numTwo){
-//   return numOne + numTwo;
-// };
-//
-// function sumOfnumbers(numOne, numTwo){
-//   console.log(numOne + numTwo);
-// }
